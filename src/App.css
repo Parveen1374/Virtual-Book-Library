@@ -1,0 +1,25 @@
+.transition-navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition effects */
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* Make sure it’s above other content */
+}
+
+.sticky-top.scrolled {
+  background-color: #f8f9fa; /* Change background color when scrolled */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow when scrolled */
+}
+
+.nav-link:hover {
+  background-color: rgba(235, 227, 227, 0.5); /* Light background on hover */
+  border-radius: 5px; /* Optional: Add slight rounding */
+}
+
+/* styles.css */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
